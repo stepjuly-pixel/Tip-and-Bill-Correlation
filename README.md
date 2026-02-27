@@ -55,6 +55,8 @@ The project uses the built-in Seaborn `tips` dataset containing 244 records with
 
 - Most data points are concentrated in the lower-left region, with a few high-value outliers.
 
+![Scatter Plot](images/scatter_plot.png)
+
 ### Pearson Correlation
 
 - p-value < 0.05 — the relationship is **statistically significant**.
@@ -75,6 +77,8 @@ The project uses the built-in Seaborn `tips` dataset containing 244 records with
 
 - Since neither variable follows a normal distribution and outliers are present, **Spearman's method** is the more appropriate correlation measure for this data.
 
+![Distributions](images/distributions.png)
+
 ### Group Size vs Total Bill
 
 - The `size` variable is discrete and non-normally distributed.
@@ -82,6 +86,8 @@ The project uses the built-in Seaborn `tips` dataset containing 244 records with
 - Spearman correlation shows a **statistically significant moderate direct relationship** between group size and total bill.
 
 - Larger groups tend to generate higher bills, but the relationship is moderate — not deterministic.
+
+![Size_Group_Distributions](images/size_distribution.png)
 
 ## How to Run
 
@@ -101,3 +107,7 @@ tip-and-bill-correlation/
 - Tip_and_Bill_Correlation.ipynb
 - requirements.txt
 - README.md
+- images/
+    - scatter_plot.png
+    - distributions.png
+    - size_distribution.png
