@@ -55,7 +55,7 @@ The project uses the built-in Seaborn `tips` dataset containing 244 records with
 
 - Most data points are concentrated in the lower-left region, with a few high-value outliers.
 
-![Scatter Plot](images/scatter_plot.png)
+<img src="images/scatter_plot.png" width="550" height="400"/>
 
 ### Pearson Correlation
 
@@ -87,7 +87,7 @@ The project uses the built-in Seaborn `tips` dataset containing 244 records with
 
 - Larger groups tend to generate higher bills, but the relationship is moderate — not deterministic.
 
-![Size_Group_Distributions](images/size_distribution.png)
+<img src="images/size_distribution.png" width="550" height="400"/>
 
 ## How to Run
 
